@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>This is my first blog</title>
+</head>
+<body>
+    <h2>
+        <a href="">New Article</a>
+    </h2>
+    {% for article in articles %}
+        <a href="">{{ article.Title }}</a>
+        <br>
+    {% endfor %}
+</body>
+</html>
