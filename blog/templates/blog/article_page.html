@@ -9,7 +9,7 @@
     <hr>
     <p>{{ article.content }}</p>
     <br/><br/>
-    <a href="">Update Article</a>
+    <a href="{% url 'my_blog:new_page' article.id %}">Update Article</a>
 
 
 </body>
